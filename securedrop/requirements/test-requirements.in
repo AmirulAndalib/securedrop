@@ -4,12 +4,12 @@ coverage>=5.0  # #6091
 flaky
 html5validator
 mock
-pillow>=10.3.0  # Safety 67136 for CVE-2024-28219
-pytest>=7.2.0
+pillow>=13.0.0  # Safety 67136 for CVE-2024-28219
+pytest>=9.0.3
 pytest-xdist>=3.0.2
 pytest-cov>=2.12,<3
 pytest-mock
-requests[socks]>=2.31.0
+requests[socks]>=2.33.0
 selenium>4.15.1
 tbselenium>=0.9
 # mypy and co.
@@ -20,4 +20,4 @@ types-PyYAML
 types-redis
 types-requests
 types-setuptools>=70.0.0
-uv>=0.9.6  # Safety 80896
+uv>=0.13.4  # Safety 80896
