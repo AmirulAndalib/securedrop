@@ -24,11 +24,11 @@ pylint>=3
 # pyenchant is via pylint[spelling]
 pyenchant>=3.2.1
 pynacl>=1.4.0
-pytest>=7.2.0
+pytest>=9.0.3
 pytest-xdist>=3.0.2
 python-vagrant
 pyyaml>=6.0.1
-requests>=2.31.0
+requests>=2.33.0
 ruamel.yaml>=0.16.10
 ruamel.yaml.clib>=0.2.7  # #7545
 ruff>=0.8
@@ -37,6 +37,6 @@ shellcheck-py
 six>=1.16.0
 pytest-testinfra>=5.3.1
 translate-toolkit
-uv>=0.11.15
+uv>=0.13.4
 yamllint
 zizmor>=1.28
